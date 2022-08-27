@@ -4,15 +4,19 @@ A system that detects an instance of a given reference object in the input image
 
 An example with intermediate results displayed:
 1. Find keypoints and matches
+
 ![alt text](https://github.com/yuhuahu310/instance-level-object-det/blob/main/results/1.png?raw=true)
 
 2. Given points in the input image, find the bounding box parameters
+
 ![alt text](https://github.com/yuhuahu310/instance-level-object-det/blob/main/results/2.png?raw=true)
 
 3. Hough Voting
+
 ![alt text](https://github.com/yuhuahu310/instance-level-object-det/blob/main/results/3.png?raw=true)
 
 4. Use selected keypoints to fit homography with RANSAC
+
 ![alt text](https://github.com/yuhuahu310/instance-level-object-det/blob/main/results/4.png?raw=true)
 
 Some results:
